@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zw.iml" filepath="$PROJECT_DIR$/zw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zw-hadoop/zw-hadoop.iml" filepath="$PROJECT_DIR$/zw-hadoop/zw-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zw-hbase/zw-hbase.iml" filepath="$PROJECT_DIR$/zw-hbase/zw-hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zw-java/zw-java.iml" filepath="$PROJECT_DIR$/zw-java/zw-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zw-zookeeper/zw-zookeeper.iml" filepath="$PROJECT_DIR$/zw-zookeeper/zw-zookeeper.iml" />
+    </modules>
+  </component>
+</project>

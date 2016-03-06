@@ -1,0 +1,40 @@
+#create table
+
+create 'site', 'www', 'h5', 'app'
+
+#put data
+put 'site', 'baidu', 'www:url', 'www.baidu.com'
+put 'site', 'baidu', 'h5:url', 'm.baidu.com'
+put 'site', 'baidu', 'app:url', 'baidu,map,nuomi'
+
+put 'site', 'baidu', 'www:pv', '10000'
+put 'site', 'baidu', 'h5:pv', '20000'
+put 'site', 'baidu', 'app:pv', '30000'
+
+put 'site', 'baidu', 'www:uv', '5000'
+put 'site', 'baidu', 'h5:uv', '10000'
+put 'site', 'baidu', 'app:uv', '15000'
+
+put 'site', 'taobao', 'www:url', 'www.taobao.com'
+put 'site', 'taobao', 'h5:url', 'h5.taobao.com'
+put 'site', 'taobao', 'app:url', 'taobao,koubei,tmall'
+
+put 'site', 'taobao', 'www:pv', '11000'
+put 'site', 'taobao', 'h5:pv', '22000'
+put 'site', 'taobao', 'app:pv', '33000'
+
+put 'site', 'taobao', 'www:uv', '5500'
+put 'site', 'taobao', 'h5:uv', '11000'
+put 'site', 'taobao', 'app:uv', '15500'
+
+put 'site', 'qq', 'www:url', 'www.qq.com'
+put 'site', 'qq', 'h5:url', 'h5.qq.com'
+put 'site', 'qq', 'app:url', 'qq,qzone,weixin,wechat'
+
+put 'site', 'qq', 'www:pv', '11100'
+put 'site', 'qq', 'h5:pv', '22200'
+put 'site', 'qq', 'app:pv', '33300'
+
+put 'site', 'qq', 'www:uv', '5550'
+put 'site', 'qq', 'h5:uv', '11100'
+put 'site', 'qq', 'app:uv', '15550'
