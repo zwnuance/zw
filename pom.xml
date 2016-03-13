@@ -15,6 +15,9 @@
         <module>zw-hbase</module>
         <module>zw-zookeeper</module>
         <module>zw-java</module>
+        <module>zw-struts</module>
+        <module>zw-struts</module>
+        <module>zw-spring</module>
     </modules>
 
     <properties>
