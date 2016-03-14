@@ -6,6 +6,7 @@
 </head>
 <body>
 <form action="/user/edit" method="post">
+    <input type="hidden" name="UserId" value="${user.userId}"><br/>
     Name<input type="text" name="name" value="${user.name}"><br/>
     Age<input type="number" name="age" value="${user.age}"><br/>
     <input type="submit" value="save">&nbsp;<a href="/user/list">Back</a>

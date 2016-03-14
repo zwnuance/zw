@@ -9,6 +9,7 @@
 <table>
     <thead>
         <tr>
+            <td>UserId</td>
             <td>Name</td>
             <td>Age</td>
         </tr>
@@ -16,8 +17,9 @@
     <tbody>
         <c:forEach var="u" items="${users}">
             <tr>
-                <td><a href="/user/edit/${u.name}">${u.name}</a></td>
-                <td>${u.age}</td>
+                <td><a href="/user/${u.value['userId']}">${u.value['userId']}</a></td>
+                <td>${u.value['name']}</td>
+                <td>${u.value['age']}</td>
             </tr>
         </c:forEach>
     </tbody>

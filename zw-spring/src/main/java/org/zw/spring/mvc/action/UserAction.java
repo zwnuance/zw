@@ -38,14 +38,14 @@ public class UserAction {
         return "redirect:list";
     }
 
-    @RequestMapping(value = "edit/{name}", method = RequestMethod.GET)
-    public String edit(@PathVariable(value = "name") String name, HttpServletRequest request,
+    @RequestMapping(value = "/{userId}", method = RequestMethod.GET)
+    public String edit(@PathVariable(value = "userId") Integer userId, HttpServletRequest request,
                        HttpServletResponse response) {
-        request.setAttribute("user", userService.getUserByName(name));
+        request.setAttribute("user", userService.getUserByName(userId));
         return "edit";
     }
 
-    @RequestMapping(value = "edit", method = RequestMethod.POST)
+    @RequestMapping(value = "/edit", method = RequestMethod.POST)
     public String edit(User user, HttpServletRequest request,
                       HttpServletResponse response) {
         userService.updateUser(user);
